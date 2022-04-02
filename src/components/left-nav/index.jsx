@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2022-03-30 00:44:32
+ * @LastEditTime: 2022-04-02 15:15:37
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \doc\src\components\left-nav\index.jsx
+ */
 import React,{Component} from "react";
 import './index.less'
 import { Menu } from 'antd';
@@ -30,7 +38,7 @@ export default class LeftNav extends Component{
           <Menu.Item key="2">机器人</Menu.Item>
         </ SubMenu>
 
-        <Menu.Item key="sub4" icon={<MailOutlined />}>日志查看</Menu.Item>
+        <Menu.Item key="sub5" icon={<MailOutlined />}>日志查看</Menu.Item>
       </Menu>
     );
   }
