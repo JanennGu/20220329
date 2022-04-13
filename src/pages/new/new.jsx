@@ -6,7 +6,7 @@
  * 
  * Copyright (c) 2022 by Regina/Elite, All Rights Reserved. 
  */
-import React, { Component } from "react";
+import React  from "react";
 import { Layout } from 'antd';
 import { Button } from "antd";
 import LeftNav from "../../components/left-nav";
