@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.less";
-import App from "./App";
+import App from "./router/App";
 import reportWebVitals from "./reportWebVitals";
 //入口js
 
